@@ -1,0 +1,122 @@
+{
+	"ADD_LIST": {
+		"type": "owls/ADD_LIST",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"name": {"type": "string"}
+			}
+		},
+		"creator": "AddList"
+	},
+	"SELECT_LIST": {
+		"type": "owls/SELECT_LIST",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"id": {"type": "string"},
+				"name": {"type": "string"}
+			}
+		}
+	},
+	"CHANGE_LIST_NAME": {
+		"type": "owls/CHANGE_LIST_NAME",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"id": {"type": "string"},
+				"newName": {"type": "string"}
+			}
+		}
+	},
+	"DELETE_LIST": {
+		"type": "owls/DELETE_LIST",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"id": {"type": "string"}
+			}
+		}
+	},
+	"ADD_ITEM": {
+		"type": "owls/ADD_ITEM",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"listId": {"type": "string"},
+				"name": {"type": "string"}
+			}
+		}
+	},
+	"ARCHIVE_ITEM": {
+		"type": "owls/ARCHIVE_ITEM",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"listId": {"type": "string"},
+				"id": {"type": "string"}
+			}
+		}
+	},
+	"RETRIEVE_ITEM": {
+		"type": "owls/RETRIEVE_ITEM",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"listId": {"type": "string"},
+				"id": {"type": "string"}
+			}
+		}
+	},
+	"REORDER_ITEM": {
+		"type": "owls/REORDER_ITEM",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"listId": {"type": "string"},
+				"id": {"type": "string"},
+				"newPosition": {"type": "number"}
+			}
+		}
+	},
+	"CHANGE_ITEM_STATUS": {
+		"type": "owls/CHANGE_ITEM_STATUS",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"id": {"type": "string"},
+				"done": {"type": "boolean"}
+			}
+		}
+	},
+	"DELETE_ITEM": {
+		"type": "owls/DELETE_ITEM",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"listId": {"type": "string"},
+				"id": {"type": "string"}
+			}
+		}
+	},
+	"ARCHIVE_LIST": {
+		"type": "owls/ARCHIVE_LIST",
+		"args": {
+			"type": "object",
+			"strict": true,
+			"properties": {
+				"id": {"type": "string"}
+			}
+		}
+	}
+}

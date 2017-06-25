@@ -263,7 +263,7 @@ async-each@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
 
-async@^1.4.0, async@^1.5.2:
+async@^1.4.0, async@^1.5.0, async@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
@@ -4986,6 +4986,12 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
+redux-action-factory@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/redux-action-factory/-/redux-action-factory-0.3.1.tgz#cb87ffa4dc4278287d56248810806a6b215fdcb7"
+  dependencies:
+    schema-inspector "^1.6.6"
+
 redux@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.0.tgz#07a623cafd92eee8abe309d13d16538f6707926f"
@@ -5225,6 +5231,12 @@ sane@~1.6.0:
 sax@^1.2.1, sax@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+
+schema-inspector@^1.6.6:
+  version "1.6.8"
+  resolved "https://registry.yarnpkg.com/schema-inspector/-/schema-inspector-1.6.8.tgz#b9e53983cc55ff2dbd7b65e3dbe085d9d1285f2a"
+  dependencies:
+    async "^1.5.0"
 
 schema-utils@^0.x:
   version "0.3.0"
